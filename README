@@ -1,0 +1,8 @@
+A simple deck of card program with basic operations.
+
+To compile and run:
+
+cmake CMakeLists.txt;
+make;
+./runTests;
+
