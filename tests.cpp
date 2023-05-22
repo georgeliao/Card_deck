@@ -7,9 +7,8 @@
 
 #include "Deck_cards.cpp"
 
-
-int main(int argc, char **argv){
-
+int main(int argc, char **argv)
+{
     try {
         Deck_cards newdeck;
         newdeck.shuffle();
@@ -19,8 +18,7 @@ int main(int argc, char **argv){
         Card toptwo = newdeck.get_top_card();
         toptwo.print();
         newdeck.print_deck_cards();
-    } catch (const char* msg) {
+    } catch (const char *msg) {
         cerr << msg << endl;
     }
-
 }
